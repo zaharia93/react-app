@@ -13,44 +13,44 @@ function Home() {
       <div className="home__row">
         <Product
           id="12324"
-          title="Some title"
+          title="Green Coffee"
           price={12.49}
-          image="images/strategy.png"
+          image="https://www.questcoffee.com.au/wp-content/uploads/2016/08/green-beans.png"
         />
         <Product
           id="1245"
-          title="Some title"
+          title="Black Coffee"
           price={32.45}
-          image="images/chair.png"
+          image="https://www.coffeebreak-dubrovnik.info/img/black-coffee.jpeg"
         />
       </div>
 
       <div className="home__row">
         <Product
           id="123544"
-          title="Some title"
+          title="Arabica"
           price={78.23}
-          image="images/hand.png"
+          image="https://www.mediastorehouse.com.au/p/629/red-coffee-berries-coffea-arabica-12551895.jpg"
         />
         <Product
           id="12324"
-          title="Some title"
+          title="Grounded Coffee"
           price={12.9}
-          image="images/magazin.png"
+          image="https://assets.bonappetit.com/photos/5c3665522efb8f2d33e3975f/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-02.jpg"
         />
         <Product
           id="12324"
-          title="Some title"
+          title="Organic Coffee"
           price={12.49}
-          image="images/hand.png"
+          image="https://5.imimg.com/data5/YU/RS/MY-3985054/organic-coffee-500x500.jpeg"
         />
       </div>
       <div className="home__row">
         <Product
           id="12324"
-          title="Some title"
+          title="Decaffeinated"
           price={12.49}
-          image="images/sales.png"
+          image="https://images.squarespace-cdn.com/content/v1/5b0883064611a091d4614861/1528304225326-UT6UW24NJ7I790MJ27RA/naturally-decaf-coffee.jpg"
         />
       </div>
     </div>

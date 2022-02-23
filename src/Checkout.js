@@ -11,7 +11,7 @@ function Checkout() {
   return (
     <div className="checkout">
         <div className="checkout__left">
-      <img className="checkout__ad" src="images/first.png" alt="" />
+      {/* <img className="checkout__ad" src="images/first.png" alt="" /> */}
       {basket?.length === 0 ? (
         <div>
           <h2 clsssName="checkout__title">Your Shopping Basket is empty</h2>

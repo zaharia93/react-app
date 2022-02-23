@@ -6,6 +6,7 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
 import {auth} from "./firebase";
+import CookieConsent from "react-cookie-consent";
 
 
 function App() {
@@ -55,6 +56,13 @@ useEffect(() => {
            
            </Route>
         </Switch>
+        <CookieConsent debug={true}
+        location="bottom"
+        style={{ background:'#000', textAlign:"left"}}
+        buttonStyle={{ color: "#4e223b", fontSize: "13px" }}
+        expires={150}
+        
+        >This site uses cookies.</CookieConsent>
       </div>
     </Router>
   );
